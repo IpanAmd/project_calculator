@@ -1,0 +1,100 @@
+body {
+    background-color: #d3d3d3;
+}
+
+.calculator {
+    text-align: center;
+    margin: 50px auto;
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    box-shadow: none;
+}
+
+.calculator:hover {
+    background-color: black;
+    box-shadow: 8px 8px 4px #252525;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+
+.screen {
+    background-color: #252525;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.screen .judul {
+    color: #fff;
+    font-size: 20px;
+}
+
+.calculator-screen {
+    width: 100%;
+    background-color: #252525;
+    color: #fff;
+    height: 70px;
+    text-align: right;
+    font-size: 36px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    height: 80px;
+    background-color: rgba(128, 128, 128, 0.8);
+    border: 1px solid black;
+    font-size: 32px;
+    color: #fff;
+    width: 25%;
+    outline: none;
+    border-radius: 10px;
+    margin: 2px;
+    box-shadow: 2px 2px 2px #d3d3d3;
+}
+
+button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: none;
+    animation-duration: 1s;
+}
+
+.all-clear {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.all-clear:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.all-clear{
+    width: 100%;
+}
+
+.operator {
+    background-color: rgba(65, 105, 225, 0.9);
+}
+
+.equal-sign {
+    background-color: rgba(65, 105, 225, 0.9);
+    /* height: 160px; */
+}
+
+.equal-sign:hover {
+    background-color: rgba(0, 0, 255, 1);
+}
+
+.operator:hover {
+    background-color: rgba(0, 0, 255, 1);
+}
